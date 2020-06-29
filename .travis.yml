@@ -7,3 +7,9 @@ install:
 
 script:
     - pytest --cov=src tests
+<<<<<<< HEAD
+=======
+ 
+after_success:
+    - codecov
+>>>>>>> 604b1f287ecff5c7ec1709ad382b531af80c2b13
